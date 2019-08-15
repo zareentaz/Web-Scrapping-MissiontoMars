@@ -1,10 +1,6 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta http-equiv="X-UA-Compatible" content="ie=edge">
  <title>Mission to Mars</title>
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
  
@@ -38,7 +34,7 @@
 
         <div class="card" style="width:18rem;">
 
-          <div class="card-body text-white bg-white">
+          <div class="card-body text-white bg-dark">
             <h5 class="card-title"><b>Current Weather on Mars</b></h6> 
             <p class="card-text" >{{mars_data.mars_weather}}</p> 
           </div>
@@ -54,7 +50,7 @@
 </div>
 
     
-      <h3 style="padding-top: 50px; margin-top: 100px; text-align: center;"><b>Mars Hemispheres</b></h3>
+      <h3 style="padding-top: 0px; margin-top: 50px; text-align: center;"><b>Mars Hemispheres</b></h3>
       <div class="card-deck">
         <hr>
         <div class="col-md-12">
@@ -64,7 +60,7 @@
                     <div class="card text-white bg-dark" style="margin: 30px;">
                         <img class="card-img-top" src="{{ item.img_url }}" width=500, height=500 />
                         <div class="card-body">
-                            <p class="card-text" font-size="10px"><b>{{ item.title }}</b></p>
+                            <p class="card-text" font-size: 20px><b>{{ item.title }}</b></p>
                         </div>
                     </div>
                 </div>
