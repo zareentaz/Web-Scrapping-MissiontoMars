@@ -31,4 +31,7 @@ Step 2 - MongoDB and Flask Application
     Create a root route / that will query your Mongo database and pass the mars data into an HTML template to display the data.
 
  4. Create a template HTML file called index.html that will take the mars data dictionary and display all of the data in the appropriate     HTML elements. Use the following as a guide for what the final product should look like, but feel free to create your own design.
+ 
+ ![screencapture-127-0-0-1-5002-2019-08-14-18_20_47](https://user-images.githubusercontent.com/49598347/66438131-6573f880-e9f1-11e9-9350-607f884cda56.png)
+
 
